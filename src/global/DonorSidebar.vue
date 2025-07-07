@@ -118,24 +118,26 @@
           to="/dashboard/donor/settings"
           class="flex items-center gap-x-2 p-2"
         >
-          <img
+          <!-- <img
             loading="lazy"
             src="~/assets/images/dashboard/settings.svg"
             width="15px"
             alt="orphans society image"
-          />
+          /> -->
+          <v-icon icon="mdi-cog" size="small" color="#5f7b61" />
           <span>{{ $t("donor.settings") }}</span>
         </nuxt-link>
       </li>
 
       <li class="cursor-pointer">
         <div class="flex items-center gap-x-2 p-2" @click="logout">
-          <img
+          <!-- <img
             loading="lazy"
             src="~/assets/images/dashboard/logout.svg"
             width="15px"
             alt="orphans society image"
-          />
+          /> -->
+          <v-icon icon="mdi-logout" size="small" color="#5f7b61" />
           <span>{{ $t("donor.logout") }}</span>
         </div>
       </li>
