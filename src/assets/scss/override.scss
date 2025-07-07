@@ -1,0 +1,449 @@
+:root {
+  --vc-clr-primary: #000;
+  --vc-clr-secondary: #090f207f;
+  --vc-clr-white: #ffffff;
+}
+
+.carousel {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  touch-action: pan-y;
+  overscroll-behavior: none;
+}
+
+.carousel.is-dragging {
+  touch-action: none;
+}
+
+.carousel * {
+  box-sizing: border-box;
+}
+
+.carousel__track {
+  display: flex;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  transition: transform ease-out;
+  height: var(--vc-trk-height, auto);
+}
+
+.carousel__viewport {
+  overflow: clip;
+  overflow-clip-margin: 30px;
+}
+
+.carousel__slide {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.carousel__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.carousel.is-ttb {
+  .carousel__track {
+    flex-direction: column;
+  }
+}
+
+.carousel.is-btt {
+  .carousel__track {
+    flex-direction: column-reverse;
+  }
+}
+
+:root {
+  --vc-icn-width: 1.2em;
+}
+
+.carousel__icon {
+  width: var(--vc-icn-width);
+  height: var(--vc-icn-width);
+  fill: currentColor;
+}
+
+:root {
+  --vc-nav-width: 30px;
+  --vc-nav-height: 30px;
+  --vc-nav-border-radius: 0;
+  --vc-nav-color: var(--vc-clr-primary);
+  --vc-nav-color-hover: var(--vc-clr-secondary);
+  --vc-nav-background: transparent;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  background: var(--vc-nav-background);
+  border-radius: var(--vc-nav-border-radius);
+  width: var(--vc-nav-width);
+  height: var(--vc-nav-height);
+  text-align: center;
+  font-size: var(--vc-nav-height);
+  padding: 0;
+  color: var(--vc-nav-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 0;
+  cursor: pointer;
+  margin: 0 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel__next--disabled,
+.carousel__prev--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.carousel__prev {
+  left: 0;
+}
+
+.carousel__next {
+  right: 0;
+}
+
+.carousel.is-rtl {
+  .carousel__prev {
+    left: auto;
+    right: 0;
+  }
+  .carousel__next {
+    right: auto;
+    left: 0;
+  }
+}
+
+.carousel.is-vertical {
+  .carousel__prev,
+  .carousel__next {
+    left: auto;
+    top: auto;
+    right: 50%;
+    transform: translate(50%);
+    margin: 5px auto;
+  }
+}
+
+.carousel.is-btt {
+  .carousel__prev {
+    bottom: 0;
+  }
+  .carousel__next {
+    top: 0;
+  }
+}
+
+.carousel.is-ttb {
+  .carousel__prev {
+    top: 0;
+  }
+  .carousel__next {
+    bottom: 0;
+  }
+}
+
+@media (hover: hover) {
+  .carousel__prev:hover,
+  .carousel__next:hover {
+    color: var(--vc-nav-color-hover);
+  }
+}
+
+:root {
+  --vc-pgn-width: 16px;
+  --vc-pgn-height: 4px;
+  --vc-pgn-margin: 6px 5px;
+  --vc-pgn-border-radius: 0;
+  --vc-pgn-background-color: var(--vc-clr-secondary);
+  --vc-pgn-active-color: var(--vc-clr-primary);
+}
+
+.carousel__pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none !important;
+  line-height: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel__pagination-button {
+  display: block;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  padding: var(--vc-pgn-margin);
+  background: transparent;
+}
+
+.carousel__pagination-button::after {
+  display: block;
+  content: "";
+  width: var(--vc-pgn-width);
+  height: var(--vc-pgn-height);
+  border-radius: var(--vc-pgn-border-radius);
+  background-color: var(--vc-pgn-background-color);
+}
+
+.carousel__pagination-button--active::after {
+  background-color: var(--vc-pgn-active-color);
+}
+
+@media (hover: hover) {
+  .carousel__pagination-button:hover::after {
+    background-color: var(--vc-pgn-active-color);
+  }
+}
+
+.carousel.is-vertical {
+  .carousel__pagination {
+    left: auto;
+    right: 5px;
+    bottom: 50%;
+    transform: translateY(50%);
+    flex-direction: column;
+  }
+
+  .carousel__pagination-button::after {
+    height: var(--vc-pgn-width);
+    width: var(--vc-pgn-height);
+  }
+}
+.carousel__slide {
+  flex-shrink: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Fix iOS scrolling #22 */
+  transform: translateZ(0);
+}
+
+.carousel__pagination-button::after {
+  display: block;
+  content: "";
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #c0bfbf !important;
+}
+
+.carousel__pagination-button--active::after {
+  background-color: #9333ea !important;
+  width: 20px !important;
+  border-radius: 10px !important;
+}
+
+.carousel__pagination {
+  bottom: -35px !important;
+}
+
+.carousel__next,
+.carousel__pagination,
+.carousel__prev {
+  transform: unset !important;
+  position: static !important ;
+}
+
+.carousel__pagination-button::after,
+.swiper-pagination-bullet {
+  transition: 0.3s !important;
+  height: 16px !important;
+  width: 16px !important;
+}
+.carousel__pagination-button--active::after,
+.swiper-pagination-bullet-active {
+  width: 32px !important;
+  border-radius: 10px !important;
+  background-color: #47a5e6 !important;
+}
+
+.carousel,
+.carousel__viewport {
+  width: min(100%, 90dvw);
+}
+.slider {
+  .carousel,
+  .carousel__viewport {
+    width: 100%;
+  }
+}
+
+.navigation-btn {
+  color: #47a5e6;
+  font-size: 2em;
+  border-radius: 10px;
+  display: grid;
+  place-content: center;
+}
+.navigation-btn:hover {
+  background-color: #d9d9d9;
+}
+
+.my-custom-btn {
+  color: #fff !important;
+}
+
+.v-input__details {
+  display: none !important;
+}
+
+.swal2-image {
+  object-fit: cover !important;
+}
+
+.swal2-confirm {
+  background-color: #cfeebd;
+}
+
+// .vti__dropdown {
+// padding: 14px;
+// border-bottom-left-radius: 8px;
+// border-top-left-radius: 8px;
+// }
+
+// .vue-tel-input {
+// border: 1px solid #e0e0e0;
+// border-radius: 8px;
+// }
+
+.vue-tel-input:focus-within {
+  box-shadow: none;
+  border-color: #e0e0e0;
+}
+
+// .vti__dropdown-list.below {
+// top: 50px;
+// }
+
+[dir="lrt"] .v-pagination {
+  direction: lrt !important;
+}
+[dir="rtl"] .v-pagination {
+  direction: rtl !important;
+}
+
+div:where(.swal2-container) {
+  z-index: 2401 !important;
+}
+
+// vue tel input
+.vue-tel-input {
+  direction: ltr !important;
+}
+
+*:has(> .vti__input.vti__search_box) {
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.vti__input.vti__search_box {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 10px;
+  padding: 0.2em 1em;
+}
+
+.v-window .vue-tel-input .vti__dropdown-list {
+  height: 150px;
+}
+
+.vue-tel-input {
+  border: none !important;
+  @apply flex gap-2 relative;
+
+  &:focus-within {
+    box-shadow: none !important;
+  }
+
+  input.vti__input.vti__phone {
+    @apply flex-1 p-2 px-2 md:!px-4 !border !border-solid !border-gray-200  rounded-2xl outline-none bg-white max-md:placeholder:text-sm max-md:placeholder:rtl:text-right;
+  }
+
+  .vti__dropdown {
+    @apply p-0 text-sm items-stretch static;
+  }
+  .vti__dropdown .vti__selection {
+    @apply py-2 px-1  md:!px-4 rounded-2xl border h-full !border-gray-200 flex items-center gap-1 md:gap-2 text-neutral-400 bg-white;
+  }
+
+  .vti__dropdown-list {
+    &.below {
+      top: 100%;
+      width: 100%;
+      left: 0;
+    }
+    &.above {
+      bottom: 100%;
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &.disabled {
+    .vti__input.vti__phone,
+    .vti__dropdown .vti__selection {
+      @apply bg-neutral-200 cursor-not-allowed;
+    }
+  }
+}
+
+.vti__dropdown:hover,
+.vti__dropdown.open {
+  background-color: transparent !important;
+}
+
+.ps__rail-y {
+  right: auto !important;
+  left: 0px !important;
+  height: 100% !important;
+
+  .ps__thumb-y {
+    right: auto !important;
+    left: 2px;
+    padding-block: 8px;
+    background: none !important;
+
+    &::after {
+      content: "";
+      background-color: #9d9f9f;
+      height: 100%;
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+  }
+}
+.v-label {
+  flex: 1;
+}
+
+.blockScrollX .ps__rail-x {
+  display: none !important;
+}
+.blockScrollY .ps__rail-y {
+  display: none !important;
+}
