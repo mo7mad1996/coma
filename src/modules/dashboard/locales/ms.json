@@ -1,0 +1,144 @@
+{
+  "pages_title": {
+    "home": "Papan pemuka",
+    "create_campaign": "Cipta Kempen",
+
+    "campaigns-show": "Butiran Kempen",
+    "campaigns-edit": "Sunting Butiran Kempen",
+    "orphans-delete": "Padam Anak Yatim",
+    "settings": "Tetapan",
+    "orphans": "Anak yatim",
+    "orphans-create": "Tambah Anak Yatim",
+    "orphans-show": "Butiran Anak Yatim",
+    "campaigns-delete": "Padam Kempen",
+    "orphans-edit": "Sunting Butiran Anak Yatim"
+  },
+  "error": "Terjadi kesalahan",
+  "warning": "Amaran",
+  "do_you_want_to_cancel_campaign_booking": "Adakah anda mahu membatalkan tempahan kempen?",
+  "campaigns": "Kempen yang ditempah",
+  "add_campaign": "Tambah Kempen",
+  "website": "Laman Utama Anda",
+  "referral_link": "Ajak orang lain untuk mendaftar",
+  "success_copy": "Disalin ke papan klip",
+
+  "logo": "Slogan",
+  "orphan": {
+    "title": "Komuniti Anak Yatim",
+    "subtitle": "Penjagaan dan perlindungan untuk anak yatim",
+    "name": "Nama",
+    "age": "Umur",
+    "years": "tahun",
+    "birth_date": "Tarikh Lahir",
+    "gender": {
+      "male": "Lelaki",
+      "female": "Perempuan"
+    },
+    "home_status": {
+      "has_home": "Ada Rumah",
+      "no_home": "Tiada Rumah"
+    },
+    "refugee": {
+      "is_refugee": "Pelarian",
+      "not_refugee": "Penduduk"
+    },
+    "details": "Butiran",
+    "sponsor": "Tajaan",
+    "view_profile": "Lihat Profil",
+    "total_orphans": "Jumlah Anak Yatim",
+    "refugees": "Pelarian",
+    "without_homes": "Tiada Rumah",
+    "males": "Lelaki",
+    "females": "Perempuan"
+  },
+  "form": {
+    "name": {
+      "title": "Nama Kempen",
+      "ar": "Nama Kempen dalam Bahasa Arab",
+      "en": "Nama Kempen dalam Bahasa Inggeris",
+      "ms": "Nama Kempen dalam Bahasa Melayu"
+    },
+    "content": {
+      "title": "Kandungan Kempen",
+      "ar": "Kandungan Kempen dalam Bahasa Arab",
+      "en": "Kandungan Kempen dalam Bahasa Inggeris",
+      "ms": "Kandungan Kempen dalam Bahasa Melayu"
+    },
+    "short_desc": {
+      "title": "Penerangan Pendek Kempen",
+      "ar": "Penerangan Pendek Kempen dalam Bahasa Arab",
+      "en": "Penerangan Pendek Kempen dalam Bahasa Inggeris",
+      "ms": "Penerangan Pendek Kempen dalam Bahasa Melayu"
+    },
+    "date": {
+      "title": "Tarikh Kempen",
+      "start_at": "Tarikh Mula",
+      "end_at": "Tarikh Tamat",
+      "total_days": "Jumlah Hari"
+    },
+
+    "status": {
+      "title": "Status",
+      "pending": "Menunggu",
+      "published": "Diterbitkan",
+      "paused": "Dijeda",
+      "ended": "Tamat",
+      "completed": "Selesai",
+      "cancelled": "Dibatalkan",
+      "rejected": "Ditolak",
+      "sort": "Susun"
+    },
+
+    "is_public": "Umum",
+    "price_target": "Sasaran Harga",
+    "country": "Negara",
+    "orphan": "Anak Yatim",
+    "category": "Kategori",
+    "image": "Imej",
+    "video": "Video",
+    "no_video_available": "Tiada video tersedia",
+    "video_url": "Pautan Video"
+  },
+
+  "orphan_form": {
+    "name": "Nama Anak Yatim",
+    "birth_date": "Tarikh Lahir",
+    "gender": "Jantina",
+    "home_status": "Mempunyai Tempat Tinggal",
+    "refugee": "Pelarian",
+    "country": "Negara",
+    "video_url": "URL Video Pengenalan",
+    "image": "Gambar Anak Yatim",
+    "confirm_deleted": "Berjaya dipadam",
+    "confirm_delete": "Kempen berjaya dipadam",
+    "confirm_delete_orphan": "Anak yatim berjaya dipadam"
+  },
+
+  "settings_form": {
+    "logo": "Logo yang akan muncul di papan pemuka anda",
+    "icon": "Ikon yang akan muncul di papan pemuka anda",
+    "keywords": "Kata kunci",
+
+    "header_background_color": "Warna Latar Bar Atas",
+    "header_text_color": "Warna Teks Bar Atas",
+    "footer_background_color": "Warna Latar Bar Bawah",
+    "footer_text_color": "Warna Teks Bar Bawah",
+    "maintenance_mode": "Mod Penyelenggaraan",
+
+    "saved": "Perubahan telah disimpan dan akan digunakan di laman anda",
+
+    "description": {
+      "title": "Huraian",
+      "ar": "Huraian (Arab)",
+      "en": "Huraian (Inggeris)",
+      "ms": "Huraian (Melayu)"
+    },
+
+    "site_name": {
+      "title": "Nama Laman",
+      "ar": "Nama Laman (Arab)",
+      "en": "Nama Laman (Inggeris)",
+      "ms": "Nama Laman (Melayu)"
+    }
+  }
+}

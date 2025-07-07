@@ -1,0 +1,146 @@
+{
+  "pages_title": {
+    "home": "لوحة التحكم",
+    "create_campaign": "إنشاء حملة",
+
+    "campaigns-edit": "تعديل بيانات الحملة",
+    "campaigns-show": "بيانات الحملة",
+    "orphans-delete": "حذف اليتيم",
+    "settings": "الاعدادات",
+    "orphans": "الأيتام",
+    "orphans-create": "إضافة يتيم",
+    "orphans-show": "بيانات اليتيم",
+    "campaigns-delete": "حذف الحملة",
+    "orphans-edit": "تعديل بيانات اليتيم"
+  },
+  "error": "حدث خطأ ما",
+  "warning": "تحذير",
+  "do_you_want_to_cancel_campaign_booking": "هل تريد الغاء حجز الحملة؟",
+  "campaigns": "الحملات المحجوزة",
+  "add_campaign": "إضافة حملة",
+  "website": "صفحتك الرئيسية",
+  "referral_link": "ادعوا الاخرين للتسجيل",
+  "success_copy": "تم النسخ الى الحافظة",
+
+  "logo": "الشعار",
+
+  "form": {
+    "name": {
+      "title": "اسم الحملة",
+      "ar": "اسم الحملة بالعربي",
+      "en": "اسم الحملة بالانجليزي",
+      "ms": "اسم الحملة بالماليزي"
+    },
+    "content": {
+      "title": "محتوى الحملة",
+      "ar": "محتوى الحملة بالعربي",
+      "en": "محتوى الحملة بالانجليزي",
+      "ms": "محتوى الحملة بالماليزي"
+    },
+    "short_desc": {
+      "title": "وصف قصير للحملة",
+      "ar": "وصف قصير للحملة بالعربي",
+      "en": "وصف قصير للحملة بالانجليزي",
+      "ms": "وصف قصير للحملة بالماليزي"
+    },
+    "date": {
+      "title": "تاريخ الحملة",
+      "start_at": "تاريخ البدء",
+      "end_at": "تاريخ الانتهاء",
+      "total_days": "إجمالي الأيام"
+    },
+
+    "status": {
+      "title": "الحالة",
+      "pending": "قيد الانتظار",
+      "published": "منشور",
+      "paused": "موقوف مؤقتًا",
+      "ended": "منتهي",
+      "completed": "مكتمل",
+      "cancelled": "ملغي",
+      "rejected": "مرفوض",
+      "sort": "الترتيب"
+    },
+
+    "is_public": "عام",
+    "price_target": "الهدف المالي",
+    "country": "الدولة",
+    "orphan": "يتيم",
+    "category": "الفئة",
+    "no_video_available": "لا يوجد فيديو متاح",
+    "image": "صورة",
+    "video": "فيديو",
+    "video_url": "رابط الفيديو"
+  },
+  "orphan": {
+    "title": "مجتمع الأيتام",
+    "subtitle": "رعاية وحماية الأطفال الأيتام",
+    "name": "الاسم",
+    "age": "العمر",
+    "years": "سنة",
+    "birth_date": "تاريخ الميلاد",
+
+    "gender": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "home_status": {
+      "has_home": "يملك منزل",
+      "no_home": "بلا منزل"
+    },
+    "refugee": {
+      "is_refugee": "لاجئ",
+      "not_refugee": "ليس لاجئ"
+    },
+    "details": "التفاصيل",
+    "sponsor": "كفالة",
+    "view_profile": "عرض الملف الشخصي",
+    "total_orphans": "إجمالي الأيتام",
+    "refugees": "لاجئون",
+    "without_homes": "بلا منازل",
+    "males": "ذكور",
+    "females": "إناث"
+  },
+  "orphan_form": {
+    "name": "اسم اليتيم",
+    "birth_date": "تاريخ الميلاد",
+    "gender": "النوع",
+    "home_status": "لديه مأوى",
+    "refugee": "لاجئ",
+    "country": "الدولة",
+    "video_url": "رابط الفيديو التعريفي",
+    "image": "صورة اليتيم",
+
+    "confirm_delete": "تم حذف الحملة بنجاح",
+    "confirm_delete_orphan": "تم حذف اليتيم",
+    "confirm_deleted": "تم الحذف"
+  },
+
+  "settings_form": {
+    "logo": "الشعار الذي سيظهر في لوحة التحكم الخاصة بك",
+    "icon": "الأيقونة التي ستظهر في لوحة التحكم الخاصة بك",
+    "keywords": "الكلمات المفتاحية",
+
+    "header_background_color": "لون خلفية الشريط العلوي",
+    "header_text_color": "لون نص الشريط العلوي",
+    "footer_background_color": "لون خلفية الشريط السفلي",
+    "footer_text_color": "لون نص الشريط السفلي",
+    "maintenance_mode": "تحت الصيانه",
+
+    "saved": "تم حفظ التغيرات وستطبق في موقعك",
+
+    "description": {
+      "title": "الوصف",
+      "ar": "الوصف (عربي)",
+      "en": "الوصف (إنجليزي)",
+      "ms": "الوصف (ماليزي)"
+    },
+
+    "site_name": {
+      "title": "اسم الموقع",
+      "ar": "اسم الموقع (عربي)",
+      "en": "اسم الموقع (إنجليزي)",
+      "ms": "اسم الموقع (ماليزي)"
+    }
+  }
+}

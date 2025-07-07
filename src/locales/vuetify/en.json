@@ -1,0 +1,43 @@
+{
+  "badge": "",
+  "loading": "loading",
+
+  "noDataText": "No data available",
+  "pagination": {
+    "ariaLabel": {
+      "root": "Pagination Navigation",
+      "previous": "Previous Page",
+      "next": "Next Page",
+      "currentPage": "Current Page",
+      "page": "Page"
+    }
+  },
+  "open": "Open",
+  "close": "Close",
+
+  "input": { "otp": "OTP", "prependAction": "Prepend Action" },
+  "dataFooter": {
+    "firstPage": "First Page",
+    "itemsPerPageText": "Items per page:",
+    "itemsPerPageAll": "All",
+    "pageText": "",
+    "nextPage": "Next page",
+    "lastPage": "Last page",
+    "prevPage": "Prev Page"
+  },
+
+  "datePicker": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "title": "Select date",
+    "header": "Choose a date"
+  },
+
+  "dataIterator": { "loadingText": "Loading..." },
+
+  "fileUpload": {
+    "title": "Upload File",
+    "browse": "Browse",
+    "divider": "or"
+  }
+}

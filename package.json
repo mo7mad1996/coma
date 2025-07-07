@@ -1,0 +1,49 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "subdomain": "nuxt dev --host local.host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/i18n": "^9.3.1",
+    "@nuxtjs/robots": "^5.2.8",
+    "@nuxtjs/sitemap": "^7.2.9",
+    "@pinia/nuxt": "^0.10.1",
+    "@tiptap/extension-text-align": "^2.12.0",
+    "@vee-validate/rules": "^4.15.0",
+    "axios": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "luxon": "^3.6.1",
+    "nprogress": "^0.2.0",
+    "nuxt": "^3.16.0",
+    "nuxt-lazytube": "^0.2.2",
+    "nuxt-tiptap-editor": "^2.2.1",
+    "pinia": "^3.0.1",
+    "puppeteer": "^24.11.2",
+    "sweetalert2": "^11.17.2",
+    "vee-validate": "^4.15.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue-tel-input": "^9.3.0",
+    "vue-toast-notification": "^3.1.3",
+    "vue3-apexcharts": "^1.8.0",
+    "vue3-carousel": "^0.11.0",
+    "vue3-perfect-scrollbar": "^2.0.0",
+    "vuetify-nuxt-module": "^0.18.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@tiptap/extension-image": "^2.12.0",
+    "@tiptap/extension-placeholder": "^2.12.0",
+    "sass-embedded": "^1.85.1"
+  }
+}

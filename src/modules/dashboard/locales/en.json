@@ -1,0 +1,145 @@
+{
+  "pages_title": {
+    "home": "Dashboard",
+    "create_campaign": "Create Campaign",
+
+    "campaigns-show": "Campaign Details",
+    "campaigns-edit": "Edit Campaign Details",
+    "orphans-delete": "Delete Orphan",
+    "settings": "Settings",
+    "orphans": "Orphans",
+    "orphans-create": "Add Orphan",
+    "orphans-show": "Orphan Details",
+    "confirm_deleted": "Deleted successfully",
+    "campaigns-delete": "Delete Campaign",
+    "orphans-edit": "Edit Orphan Details"
+  },
+  "error": "An error occurred",
+  "warning": "Warning",
+  "do_you_want_to_cancel_campaign_booking": "Do you want to cancel the campaign booking?",
+  "campaigns": "Booked Campaigns",
+  "add_campaign": "Add Campaign",
+  "website": "Your Homepage",
+  "no_video_available": "No video available",
+  "referral_link": "Invite others to register",
+  "success_copy": "Copied to clipboard",
+
+  "logo": "Logos",
+
+  "form": {
+    "name": {
+      "title": "Campaign Name",
+      "ar": "Campaign Name in Arabic",
+      "en": "Campaign Name in English",
+      "ms": "Campaign Name in Malay"
+    },
+    "content": {
+      "title": "Campaign Content",
+      "ar": "Campaign Content in Arabic",
+      "en": "Campaign Content in English",
+      "ms": "Campaign Content in Malay"
+    },
+    "short_desc": {
+      "title": "Short Description of Campaign",
+      "ar": "Short Description of Campaign in Arabic",
+      "en": "Short Description of Campaign in English",
+      "ms": "Short Description of Campaign in Malay"
+    },
+    "date": {
+      "title": "Campaign Date",
+      "start_at": "Start Date",
+      "end_at": "End Date",
+      "total_days": "Total Days"
+    },
+
+    "status": {
+      "title": "Status",
+      "pending": "Pending",
+      "published": "Published",
+      "paused": "Paused",
+      "ended": "Ended",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "rejected": "Rejected",
+      "sort": "Sort"
+    },
+
+    "price_target": "Price Target",
+    "is_public": "Is Public",
+    "country": "Country",
+    "orphan": "Orphan",
+    "category": "Category",
+    "image": "Image",
+    "video": "Video",
+    "video_url": "Video URL"
+  },
+
+  "orphan": {
+    "title": "Orphan Community",
+    "subtitle": "Care and protection for orphaned children",
+    "name": "Name",
+    "age": "Age",
+    "years": "year",
+    "birth_date": "Date of Birth",
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "home_status": {
+      "has_home": "Has Home",
+      "no_home": "Homeless"
+    },
+    "refugee": {
+      "is_refugee": "Refugee",
+      "not_refugee": "Resident"
+    },
+    "details": "Details",
+    "sponsor": "Sponsor",
+    "view_profile": "View Profile",
+    "total_orphans": "Total Orphans",
+    "refugees": "Refugees",
+    "without_homes": "Homeless",
+    "males": "Males",
+    "females": "Females"
+  },
+  "orphan_form": {
+    "name": "Orphan Name",
+    "birth_date": "Birth Date",
+    "gender": "Gender",
+    "home_status": "Has Shelter",
+    "refugee": "Refugee",
+    "country": "Country",
+    "video_url": "Introductory Video URL",
+    "image": "Orphan Image",
+
+    "confirm_delete": "Campaign deleted successfully",
+    "confirm_delete_orphan": "Orphan deleted successfully"
+  },
+
+  "settings_form": {
+    "logo": "Logo that will appear in your dashboard",
+    "icon": "Icon that will appear in your dashboard",
+    "keywords": "Keywords",
+
+    "header_background_color": "Top Bar Background Color",
+    "header_text_color": "Top Bar Text Color",
+    "footer_background_color": "Bottom Bar Background Color",
+    "footer_text_color": "Bottom Bar Text Color",
+    "maintenance_mode": "Maintenance Mode",
+
+    "saved": "Changes have been saved and will be applied to your site",
+
+    "description": {
+      "title": "Description",
+      "ar": "Description (Arabic)",
+      "en": "Description (English)",
+      "ms": "Description (Malay)"
+    },
+    "site_name": {
+      "title": "Site Name",
+      "ar": "Site Name (Arabic)",
+      "en": "Site Name (English)",
+      "ms": "Site Name (Malay)"
+    }
+  }
+}

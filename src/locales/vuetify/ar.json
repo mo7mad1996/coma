@@ -1,0 +1,45 @@
+{
+  "badge": "",
+  "loading": "جاري التحميل",
+  "open": "فتح",
+  "close": "اغلاق",
+  "noDataText": "لا توجد بيانات",
+  "pagination": {
+    "ariaLabel": {
+      "root": "التنقل بين الصفحات",
+      "previous": "الصفحة السابقة",
+      "next": "الصفحة التالية",
+      "currentPage": "الصفحة الحالية",
+      "page": "الصفحة"
+    }
+  },
+  "input": {
+    "otp": "OTP",
+    "prependAction": "إجراء سابق",
+    "clear": "مسح"
+  },
+  "dataFooter": {
+    "firstPage": "الصفحة الاولى",
+    "prevPage": "السابق",
+    "itemsPerPageText": "عدد العناصر في الصفحة:",
+    "itemsPerPageAll": "الكل",
+    "pageText": "",
+    "nextPage": "الصفحة التالية",
+    "lastPage": "الصفحة الأخيرة"
+  },
+
+  "datePicker": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "title": "اختر التاريخ",
+    "header": "اختر تاريخًا"
+  },
+
+  "dataIterator": { "loadingText": "جاري التحميل" },
+
+  "fileUpload": {
+    "title": "رفع ملف",
+    "browse": "تصفح",
+    "divider": "أو"
+  }
+}

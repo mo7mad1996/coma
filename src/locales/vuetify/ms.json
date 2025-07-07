@@ -1,0 +1,42 @@
+{
+  "badge": "",
+  "loading": "memuatkan",
+
+  "noDataText": "Tiada data tersedia",
+  "pagination": {
+    "ariaLabel": {
+      "root": "Navigasi Halaman",
+      "previous": "Halaman Sebelumnya",
+      "next": "Halaman Berikutnya",
+      "currentPage": "Halaman Semasa",
+      "page": "Halaman"
+    }
+  },
+  "open": "Buka",
+  "close": "Tutup",
+
+  "input": { "otp": "OTP", "prependAction": "Tindakan Sebelumnya" },
+  "dataFooter": {
+    "firstPage": "Halaman Pertama",
+    "itemsPerPageText": "Item setiap halaman:",
+    "itemsPerPageAll": "Semua",
+    "pageText": "",
+    "nextPage": "Halaman Berikutnya",
+    "lastPage": "Halaman Terakhir",
+    "prevPage": "Halaman Sebelumnya"
+  },
+
+  "datePicker": {
+    "cancel": "Batal",
+    "ok": "OK",
+    "title": "Pilih tarikh",
+    "header": "Pilih tarikh"
+  },
+
+  "dataIterator": { "loadingText": "Memuatkan" },
+  "fileUpload": {
+    "title": "Muat Naik Fail",
+    "browse": "Semak Imbas",
+    "divider": "atau"
+  }
+}
